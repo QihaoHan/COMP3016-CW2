@@ -51,3 +51,4 @@ Call `model.draw` to Draw the 3D Model.<br/>
 - Shut down GLFW: Use `glfwTerminate` to end the program, shut down GLFW and clean up allocated resources.<br/>
 
 # How did I do it
+Special place: I created a new OpenGL texture object with my name "Qihao Han" surrounded by quadrangles using "name.png". Use 'glBindTexture' to bind the newly created texture object to the currently active texture unit. It is to paste my name on the flashlight by this operation.<br/>
