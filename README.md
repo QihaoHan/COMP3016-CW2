@@ -40,7 +40,7 @@ F: Turn off flashlight light source
 - Clean the screen: Clear the color and depth buffers.<br/>
 - Update Camera view: Update the `Camera` object to reflect changes in the user's perspective.<br/>
 - Model rendering:<br/>
- - Set the MVP matrix for each model.<br/>
+* Set the MVP matrix for each model.<br/>
 Apply the shader program.<br/>
 Information such as lighting and material is passed to the shader.<br/>
 Call `model.draw` to Draw the 3D Model.<br/>
