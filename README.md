@@ -1,9 +1,9 @@
-# COMP3016/CW2
+# COMP3016-CW2
 
-# Introduction
+## Introduction
 This project is called flashlight. Create a 3D rendering environment through OpenGL and CLFW libraries, showing how to load and render 3D models, handle lighting and materials, and use shaders to control rendering effects. The keyboard event controls the flashlight light source switch to complete the interaction.
 
-# How to do open and control prototype
+## How to do open and control prototype
 Open:<br/>
 1. Decompress CW2.zip.
 2. Open the "CW2" folder and continue to click on the "Project3" folder.
@@ -15,7 +15,7 @@ Interact with the keyboard<br/>
 O: Turn on flashlight light source<br/>
 F: Turn off flashlight light source
 
-# How does the program code work
+## How does the program code work
 **Initialize and configure the system**:<br/>
 - Import libraries and definitions: The program first imports OpenGL, GLFW, and other required libraries and header files.<br/>
 - Initialize GLFW: Initialize GLFW and set the OpenGL version and configuration by calling `glfwInit` and related functions.<br/>
@@ -50,7 +50,7 @@ Call `model.draw` to Draw the 3D Model.<br/>
 - Resource release: Releases allocated resources, such as texture and shader objects.<br/>
 - Shut down GLFW: Use `glfwTerminate` to end the program, shut down GLFW and clean up allocated resources.<br/>
 
-# How did I do it
+## How did I do it
 Special place: I created a new OpenGL texture object with my name "Qihao Han" surrounded by quadrangles using "name.png". Use `glBindTexture` to bind the newly created texture object to the currently active texture unit. It is to paste my name on the flashlight by this operation.<br/>
 
 Idea: The flashlight lighting idea came from a light source I saw on the BIlibili website. For this I produced a light switch interaction scene.<br/>
