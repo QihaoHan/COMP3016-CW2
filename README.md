@@ -61,4 +61,4 @@ How I do it: Understanding lighting requires looking at shader, which is key to 
 YouTube: 
 
 ## Git Repository
-GitHub: https: 
+GitHub: 
