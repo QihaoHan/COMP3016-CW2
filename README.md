@@ -49,3 +49,5 @@ Call `model.draw` to Draw the 3D Model.<br/>
 - End the render loop: Exit the render loop when `glfwWindowShouldClose` returns `true`.<br/>
 - Resource release: Releases allocated resources, such as texture and shader objects.<br/>
 - Shut down GLFW: Use `glfwTerminate` to end the program, shut down GLFW and clean up allocated resources.<br/>
+
+# How did I do it
