@@ -25,3 +25,10 @@ F: Turn off flashlight light source
 **Setting up the rendering environment**:<br/>
 - Set Viewport: Define the size of the render window through the `glViewport`.<br>
 - Enable depth testing: Use `glEnable(GL_DEPTH_TEST)` to ensure that objects are rendered correctly in 3D space.<br/>
+
+**Load shaders and resources**:<br/>
+Load Shader: Create `shader` objects for subsequent rendering shader processing.<br/>
+Load materials and textures: Use the `loadImageToGUP` function to load image textures to the GPU for material creation.<br/>
+Create light objects: Create `LightDirectional`, `LightPoint`, `LightSpot`, etc. objects that simulate different lighting effects.<br/>
+
+
