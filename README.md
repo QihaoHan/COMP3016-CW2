@@ -53,3 +53,4 @@ Call `model.draw` to Draw the 3D Model.<br/>
 # How did I do it
 Special place: I created a new OpenGL texture object with my name "Qihao Han" surrounded by quadrangles using "name.png". Use `glBindTexture` to bind the newly created texture object to the currently active texture unit. It is to paste my name on the flashlight by this operation.<br/>
 Idea: The flashlight lighting idea came from a light source I saw on the BIlibili website. For this I produced a light switch interaction scene.<br/>
+How I do it: Understanding lighting requires looking at shader, which is key to my project. I need to understand vertex shaders such as coordinate transformations, do a good job of mapping colors and textures, understand basic lighting models, etc. This project allowed me to learn a lot from different resources and tools, such as learnopengl.com. Gave me a lot of help.<br/>
