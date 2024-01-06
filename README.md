@@ -21,3 +21,6 @@ F: Turn off flashlight light source
 - Initialize GLFW: Initialize GLFW and set the OpenGL version and configuration by calling `glfwInit` and related functions.<br/>
 - Create window: Create a window with `glfwCreateWindow` and set it to be the primary context of the current thread.<br/>
 - Initialize GLEW: Initializes GLEW (a function pointer used to manage OpenGL) to use OpenGL functionality.<br/>
+**Setting up the rendering environment**:<br/>
+- Set Viewport: Define the size of the render window through the `glViewport`.<br>
+- Enable depth testing: Use `glEnable(GL_DEPTH_TEST)` to ensure that objects are rendered correctly in 3D space.<br/>
