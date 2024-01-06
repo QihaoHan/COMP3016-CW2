@@ -14,3 +14,10 @@ Control:<br/>
 Interact with the keyboard<br/>
 O: Turn on flashlight light source<br/>
 F: Turn off flashlight light source
+
+# How does the program code work
+## 1. Initialize and configure the system
+Import libraries and definitions: The program first imports OpenGL, GLFW, and other required libraries and header files.
+Initialize GLFW: Initialize GLFW and set the OpenGL version and configuration by calling glfwInit and related functions.
+Create window: Create a window with glfwCreateWindow and set it to be the primary context of the current thread.
+Initialize GLEW: Initializes GLEW (a function pointer used to manage OpenGL) to use OpenGL functionality.
