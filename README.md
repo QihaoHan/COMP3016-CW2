@@ -31,4 +31,8 @@ F: Turn off flashlight light source
 - Load materials and textures: Use the `loadImageToGUP` function to load image textures to the GPU for material creation.<br/>
 - Create light objects: Create `LightDirectional`, `LightPoint`, `LightSpot`, etc. objects that simulate different lighting effects.<br/>
 
+**Ready render loop**:<br/>
+- Model loading: Create `Model` objects and load 3D model data.<br/>
+- Set up the MVP matrix: Configure the Model, View, and Projection matrices to render 3D objects correctly.
+
 
