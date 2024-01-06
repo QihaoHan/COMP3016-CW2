@@ -9,3 +9,7 @@ Open:<br/>
 2. Open the "CW2" folder and continue to click on the "Project3" folder.
 3. Move the "OpenGL" folder to "C:\Users\Public".
 4. Run the "Project3.exe" file
+Control:<br/>
+Interact with the keyboard
+O: Turn on flashlight light source
+F: Turn off flashlight light source
