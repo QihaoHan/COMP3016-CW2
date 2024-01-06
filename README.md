@@ -44,3 +44,8 @@ Set the MVP matrix for each model.<br/>
 Apply the shader program.<br/>
 Information such as lighting and material is passed to the shader.<br/>
 Call `model.draw` to Draw the 3D Model.<br/>
+
+**End cleanup**:<br/>
+- End the render loop: Exit the render loop when `glfwWindowShouldClose` returns `true`.
+- Resource release: Releases allocated resources, such as texture and shader objects.
+- Shut down GLFW: Use `glfwTerminate` to end the program, shut down GLFW and clean up allocated resources.
