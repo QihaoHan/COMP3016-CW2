@@ -58,7 +58,7 @@ Idea: The flashlight lighting idea came from a light source I saw on the BIlibil
 How I do it: Understanding lighting requires looking at shader, which is key to my project. I need to understand vertex shaders such as coordinate transformations, do a good job of mapping colors and textures, understand basic lighting models, etc. This project allowed me to learn a lot from different resources and tools, such as learnopengl.com. Gave me a lot of help.<br/>
 
 ## Video Link
-YouTube: 
+YouTube: https://youtu.be/3km-amrwrBQ
 
 ## Git Repository
 GitHub: https://github.com/QihaoHan/COMP3016-CW2
